@@ -1,0 +1,20 @@
+PYTHON IDE:
+
+An IDE (or Integrated Development Environment) is a program dedicated to software development. As the name implies, 
+IDEs integrate several tools specifically designed for software development. These tools usually include:
+
+An editor designed to handle code (with, for example, syntax highlighting and auto-completion)
+Build, execution, and debugging tools
+Some form of source control.
+
+Different IDE'S /Code Editors used for Python:
+1.Eclipse + PyDev
+2.Sublime Text
+3.Atom
+4.GNU Emacs
+5.Vi / Vim
+
+Python specific editors and IDE's:
+1.PyCharm
+2.Spyder
+3.Thonny
