@@ -1,4 +1,4 @@
-class student:
+class student():
    def __init__(self):
      self.id=None
      self.marks=None
@@ -33,14 +33,19 @@ class student:
       print(self.marks)
       print(self.age)
 
-x=student()
-id=int(input("enter the id"))
-marks=int(input("enter marks:"))
-age=int(input("enter age:"))
-x.setdata(id,marks,age)
-if x.check_qualification():
-   x.getdata()
-else:
+n=int (input("enter no of students"))
+x=[]
+for i in range (n):
+  print("enter details")
+  x.append(student())
+  id=int(input("enter the id"))
+  marks=int(input("enter marks:"))
+  age=int(input("enter age:"))
+  x[i].setdata(id,marks,age)
+for i in range (n):
+ if x[i].check_qualification():
+   x[i].getdata()
+ else:
    print("not qualified") 
 
 
